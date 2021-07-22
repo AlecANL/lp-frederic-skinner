@@ -8,7 +8,7 @@ Crea el sitio bibliografico de Frederic Skinner un psicológo muy reconocido.
 
 ## Desktop
 
-<img width="400px"  src="https://github.com/no-te-rindas/imagenes/blob/main/Readmes/frederic-skinner/frederic-skinner-desktop.png?raw=true"/>
+![screenshot](./src/assets/design.png)
 
 ## Disclaimer
 
