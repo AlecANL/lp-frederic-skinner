@@ -7,8 +7,10 @@
 }
 .btn:active {
   transform: scale(0.98);
+  font-weight: bold;
 }
 .is-blue {
   background-color: #2c74ff;
-  color: var(--just-white);
+  /* color: var(--just-white); */
+  color: #000;
 }
