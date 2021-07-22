@@ -1,0 +1,14 @@
+.btn {
+  border: none;
+  padding-inline: 1.5rem;
+  padding-block: 0.8rem;
+  font-family: var(--spartanfont);
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.is-blue {
+  background-color: #2c74ff;
+  color: var(--just-white);
+}

@@ -1,0 +1,32 @@
+.main-content {
+  /* min-block-size: 100vh; */
+  padding-inline: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  margin-block-start: 2.5rem;
+}
+.main-headline {
+  margin-block-end: 3rem;
+  font-family: var(--bodoniFont);
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .biography {
+    max-inline-size: 34.375rem;
+  }
+  .main-headline {
+    margin: 0;
+    /* margin-block-end: 3rem; */
+    font-weight: 700;
+    font-size: 9rem;
+    line-height: 7.125rem;
+  }
+}

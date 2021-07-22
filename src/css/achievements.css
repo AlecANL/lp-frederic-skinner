@@ -1,0 +1,59 @@
+.achievements {
+  padding-block: 3rem;
+  display: grid;
+  inline-size: 100%;
+  grid-template-columns: 1fr;
+  row-gap: 0.5rem;
+}
+.achievements img {
+  max-inline-size: 100%;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.card {
+  position: relative;
+  overflow: hidden;
+}
+.card-layer {
+  position: absolute;
+  inset-inline: 0;
+  inset-block-end: 0;
+  inset-block-start: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg_hover-color);
+  transition: inset-block-start 0.2s ease-in;
+}
+
+.card:hover .card-layer {
+  inset-block-start: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .achievements {
+    grid-template-columns: repeat(2, 18.25rem);
+    place-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .achievements img {
+    max-inline-size: 18.25rem;
+  }
+  .achievements {
+    padding-block-end: 0;
+    grid-template-columns: 18.25rem 18.25rem;
+  }
+  .achievements {
+    flex-direction: row;
+    gap: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .achievements {
+    grid-template-columns: repeat(3, 18.25rem);
+    place-content: initial;
+  }
+}

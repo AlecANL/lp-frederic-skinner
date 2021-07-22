@@ -1,0 +1,27 @@
+@import './header.css';
+@import './main-content.css';
+@import './button.css';
+@import './achievements.css';
+@import './sidebar.css';
+
+:root {
+  --bodoniFont: 'Bodoni Moda', serif;
+  --spartanfont: 'Spartan', sans-serif;
+  --bg_hover-color: rgba(0, 0, 0, 0.75);
+  --just-white: #fff;
+}
+body {
+  margin: 0;
+  font-family: var(--spartanfont);
+  background-image: linear-gradient(hsla(0, 0%, 7%, 0.5), hsla(0, 0%, 7%, 0.5)),
+    url('../assets/bg_banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-block-size: 100vh;
+  color: var(--just-white);
+}
+.wrapper {
+  max-inline-size: 1300px;
+  margin: auto;
+}
